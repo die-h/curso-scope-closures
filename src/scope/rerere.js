@@ -23,9 +23,10 @@ console.log(fruit);
 const animal = "dog"; // Declaracion y asignacion
 animal = "cat"; // X => No se puede reasignar variables const
 
+//const arrays
 const vehicles = [];
-vehicles.push("Car");
-console.log(vehicles);
+vehicles.push("Car"); 
+console.log(vehicles); // A pesar de ser asignado un array vacío se le puede hacer push
 
 vehicles.pop();
-console.log(vehicles);
+console.log(vehicles); // De la misma manera, se puede usar pop para quitar un elemento
